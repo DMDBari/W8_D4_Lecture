@@ -1,12 +1,5 @@
-console.log('Hello World!')
-console.log('Log another line')
+import { Canvas } from "./Widget";
 
-function sayHello(name:string){
-    console.log("hello " + name +'!')
-}
 
-sayHello('Dillon');
-sayHello('Ed')
-sayHello('Billy')
-
-console.log('Making a change')
+const canvas = new Canvas(document.body);
+console.log(canvas);
